@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Hadi Rahjou resume</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1><b>Hadi</b> Rahjou</h1>
+			<hr>
+			Data Engineer 
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+					<!-- contact info including social media -->
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:rahjooh@gmail.com">rahjooh@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/rahjooh">rahjooh</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/in/hadirahjou/">Hadi Rahjou</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a>+98 912 678 0 521</a>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					<!-- your skills AKA "buzzwords" -->
+                    <p> <li> Apache Hadoop </li>
+                        <li>Apache Spark  </li>
+                        <li>Apache Kafka  </li>
+                        <li>docker </li>
+                        <li>Python </li>
+                        <li>django </li>
+                        <li>Java</li>
+                        <li>Sqlserver </li>
+                        <li>Postgres</li>
+                        <li>git </li>
+                        <li>linux</li>
+                    </p>
+				</section>
+				<section>
+					<h2>EDUCATION</h2>
+					<!-- your education -->
+                    <b>Computer Sciense</b>
+                    <p>  
+                        <a href="url">Tehran University</a>
+                    </p>
+                    <p>
+                        2016-2018
+                    </p>
+				</section>            
+			</article>
+			<article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					<!-- about you -->
+					<p>I am a data enginner and always be a learner. I'm currently programming by python and java . I've good experience working with database such as Oracledb, MSSQL, Postgres, Mongo , sqlite. My main focus is on Hadoop, Spark and Kafka to service over huge amount of data or even stream data. I've some good experice in data scientist position too. I think i am a fast self learner and good team player.  </p>
+				</section>
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+					<!-- your work experience -->
+                    <h3><b>JOB TITLE</b></h3>
+                    <p>
+                        <a href="https://soshyant.co/">Soshyant </a> | Feb 2022 - 
+                    </p>
+                    <p>
+                            Create a service for portfolio of the traders of the stock. That gain is result of some complicated aggregations over data with  billions of records.
+                    </p>
+                    <ul>
+                            <li>Create an Spark cluster on VDIs </li>
+                            <li>Implemention  pyspark application to calc portfolio and store in hadoop and Sql</li>
+                            <li>Maintain result's database for providing service to traders</li>
+                            <li>Implementation of portfolio service to serve on Kafka and Rest api via springboot</li>
+                    </ul>
+
+
+                    <p>
+                        <a href="https://ba24.ir/">Ayandeh Bank </a> | May 2017 - Jan 2022
+                    </p>
+                    <ul class="roman">
+                        <li>Customer 360 Dashboard : a dashboard to have all account information ,statistical reports and analytical feedback in a single page. was a huge data project. </li>
+                        <ul class="square">
+                         <li>Fetching historical data from different sources into the hadoop cluster</li>
+                         <li>Writing a daily fetcher for daily data over 16 different resources</li>
+                         <li>Implementaion of Customer 360 on pyspark</li>
+                         <li>Stage daily results in a postgres for serving the 360 tablue dashboard</li>
+                        </ul>
+                        </li>
+                        <li>Customer Segmentation : a bigdata project which segments customers over RFM model and customized kmeans clustering algorithm to serve bank's apps and campaigns</li>
+                        <ul class="square">
+                            <li>Build and maintain a Hadoop cluster</li>
+                            <li>Build and maintain a Spark cluster</li>
+                            <li>Huge research and r&d Implementaion for choose methods of Segmentation : clustering algorithms , number of clusters , financial models ...</li>
+                            <li>Implementaion customized kmeans to have a domain close segments</li>
+                            <li>Stage daily results on Sqlserver</li>
+                        </ul>
+                        <li>Churn Detection : a bigdata dashboard to detect and predict churn of the customers </li>
+                        <ul class="square">
+                            <li>Stage all transactional data of customers into hdfs</li>
+                            <li>Calc monetary rate , frequency rate and recency rate of each segment base on average of customers and stock behaviors.</li>
+                            <li>Calc expected monetary and frequency of each customer base on his segment's rates via pyspark</li>
+                            
+                            <li>Detect churned customer for serving the tableau dashboard</li>
+                            <li>Predict the customers with the risk of churn by Logestic Regression algorithm over spark</li>
+                        </ul>
+                       </ul>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
