@@ -1,4 +1,4 @@
 # resume
 Hadi Rahjou 's resume
-
-https://vscode.dev/github/rahjooh/resume
+to view : https://rahjooh.github.io/resume/
+to edit : https://vscode.dev/github/rahjooh/resume
