@@ -11,65 +11,132 @@
     <h1>HADI RAHJOU</h1>
     <p>
       <a href="mailto:rahjooh@gmail.com">rahjooh@gmail.com</a> |
-      <a href="tel:09126780521">0912.6780521</a>
+      <a href="tel:09126780521">0912.6780521</a> |
+      <a href="https://hadirahjou.ir" target="_blank">hadirahjou.ir</a>
     </p>
   </header>
 
   <main>
-    <!-- LEFT COLUMN (Now Experience) -->
+    <!-- LEFT COLUMN: Experience -->
     <div id="mainLeft">
       <section>
         <h2>Experience</h2>
 
-        <h3>Bigmining <span>| Software Engineer (Go, Data, Cloud)</span></h3>
-        <p><em>June 2025 – Now</em></p>
-        <ul>
-          <li>
-            Built a real-time data ingestion system streaming high-frequency cryptocurrency
-            data into Iceberg tables on AWS S3, optimized for analytical workloads.
-          </li>
-          <li>
-            Provisioned and maintained an Amazon MSK Serverless (Kafka) cluster using
-            Terraform, enabling scalable, event-driven data ingestion with automated
-            infrastructure management and monitoring.
-          </li>
-          <li>
-            Developed a cross-exchange cryptocurrency trading bot in Go, integrating
-            market data streams, strategy execution, and exchange APIs to support
-            low-latency order routing and multi-venue arbitrage.
-          </li>
-        </ul>
+        <!-- Bigmining -->
+        <div class="job">
+          <h3>Bigmining <span>| Software Engineer (Go, Data, Cloud)</span></h3>
+          <p class="date">June 2025 – Now</p>
+          <ul>
+            <li>Built a real-time data ingestion system streaming high-frequency cryptocurrency data into Iceberg tables on AWS S3, optimized for analytical workloads.</li>
+            <li>Provisioned and maintained an Amazon MSK Serverless (Kafka) cluster using Terraform, enabling scalable, event-driven data ingestion with automated infrastructure management and monitoring.</li>
+            <li>Developed a cross-exchange cryptocurrency trading bot in Go, integrating market data streams, strategy execution, and exchange APIs to support low-latency order routing and multi-venue arbitrage.</li>
+          </ul>
+        </div>
 
-        <h3>Snapp <span>| Data Engineer</span></h3>
-        <p><em>April 2024 – June 2025</em></p>
-        <ul>
-          <li>
-            Led the migration of 50TB of big data infrastructure and 33 Spark legacy
-            pipelines from Hadoop (YARN/HDFS) to Kubernetes and S3, enhancing scalability
-            and efficiency.
-          </li>
-          <li>
-            Led Spark cluster setup and architected end-to-end data pipelines using
-            custom Helm (development), Spark APIs (deployment), and Airflow operators
-            (scheduling) for Kafka sink and flattening pipelines (50+).
-          </li>
-          <li>
-            Managed standard deployments on OKD using CI/CD and Vault with ArgoCD,
-            and on VMs using Ansible.
-          </li>
-          <li>
-            Performed server maintenance, including upgrades, storage provisioning,
-            and preparing bare-metal servers to join OKD clusters.
-          </li>
-          <li>
-            Maintained AWS infrastructure incorporating key technologies like Kafka
-            and ClickHouse.
-          </li>
-        </ul>
+        <!-- Snapp -->
+        <div class="job">
+          <h3>Snapp <span>| Data Engineer</span></h3>
+          <p class="date">April 2024 – June 2025</p>
+          <ul>
+            <li>Led the migration of 50TB of big data infrastructure and 33 Spark legacy pipelines from Hadoop (YARN/HDFS) to Kubernetes and S3, enhancing scalability and efficiency.</li>
+            <li>Led Spark cluster setup and architected end-to-end data pipelines using custom Helm (development), Spark APIs (deployment), and Airflow operators (scheduling) for Kafka sink and flattening pipelines (50+).</li>
+            <li>Managed standard deployments on OKD using CI/CD and Vault with ArgoCD, on VMs using Ansible.</li>
+            <li>Performed server maintenance, including upgrades, storage provisioning, and preparing bare metal servers to join OKD clusters.</li>
+            <li>Maintained AWS infrastructure incorporating key technologies like Kafka and ClickHouse.</li>
+          </ul>
+        </div>
+
+        <!-- Informatics Services Corporation -->
+        <div class="job">
+          <h3>Informatics Services Corporation <span>| Fullstack & Sr Data Engineer</span></h3>
+          <p class="date">Feb 2023 – April 2024</p>
+          <ul>
+            <li>Built browser-based admin tools handling 200M+ daily transactions on cloud infrastructure.</li>
+            <li>Developed high-performance Go modules with async, multiprocessing, and parallelism for 80% faster reporting.</li>
+            <li>Designed microservices with Django resolving messaging, filtering, and auditing via RESTful middleware.</li>
+            <li>Created a Django-based dashboard for database management and system monitoring.</li>
+          </ul>
+        </div>
+
+        <!-- Soshyant -->
+        <div class="job">
+          <h3>Soshyant Financial Tech <span>| Sr Data Engineer</span></h3>
+          <p class="date">Feb 2022 – Jan 2023</p>
+          <ul>
+            <li>Built Spark-based ETL pipelines in PySpark for processing billions of stock records.</li>
+            <li>Deployed on Hadoop and MS SQL, exposing results via Kafka and REST APIs.</li>
+            <li>Dockerized jobs and scheduled with Kubernetes; used Git, Jira, and Confluence for team collaboration.</li>
+          </ul>
+        </div>
+
+        <!-- Ayandeh Bank -->
+        <div class="job">
+          <h3>Ayandeh Bank <span>| Sr Data Engineer</span></h3>
+          <p class="date">May 2017 – Feb 2022</p>
+          <ul class="roman">
+              <li><b>Customer 360 Dashboard </b>: a dashboard to have all account information ,statistical reports and analytical feedback in a single page. was a huge data project. </li>
+              <ul class="square">
+               <li>Fetching historical data from different sources into the hadoop cluster</li>
+               <li>Writing a daily fetcher for daily data over 16 different resources</li>
+               <li>Implementaion of Customer 360 on pyspark</li>
+               <li>Stage daily results in a postgres for serving the 360 tablue dashboard</li>
+              </ul><br>
+
+
+              <li><b>Customer Segmentation</b> : a bigdata project which segments customers over RFM model and customized kmeans clustering algorithm to serve bank's apps and campaigns</li>
+              <ul class="square">
+                  <li>Build and maintain a Hadoop cluster</li>
+                  <li>Build and maintain a Spark cluster</li>
+                  <li>Huge research and r&d Implementaion for choose methods of Segmentation : clustering algorithms ,number of clusters ,financial models</li>
+                  <li>Implementaion customized kmeans to have a domain close segments</li>
+                  <li>Stage daily results on Sqlserver</li>
+              </ul><br>
+
+
+              <li><b>Churn Detection</b> : a bigdata dashboard to detect and predict churn of the customers </li>
+              <ul class="square">
+                  <li>Stage all transactional data of customers into hdfs</li>
+                  <li>Calc monetary rate , frequency rate and recency rate of each segment base on average of customers and stock behaviors.</li>
+                  <li>Calc expected monetary and frequency of each customer base on his segment's rates via pyspark</li>
+                  
+                  <li>Detect churned customer for serving the tableau dashboard</li>
+                  <li>Predict the customers with the risk of churn by Logestic Regression algorithm over spark</li>
+              </ul><br>
+
+              <li><b>I/O Bank Resources</b> : an statistical dashboard to reports all mounetry that bank recieved and spent among all it's ports. It is a managment dashboard and managers of the bank are it's users.</li>
+              <ul class="square">
+                  <li>create a java job to feed resources table from several resources</li>
+                  <li>Implementaion of high complex aggregations to gain a daily, monthly and yearly result</li>
+                  <li>create an application web server via django and plotly for automate report publishing</li>
+                  <li>implementng access managing for hierarchical access of users</li>
+              </ul><br>
+
+              <li><b>DBA Assistant</b> : experienced as a backup database admin of Ayandeh bank.</li>
+              <ul class="square">
+                  <li>Implementing a FTP Listener by python to catch and report lateness or lackness of routine files</li>
+                  <li>Controlling SQL Packages stats</li>
+                  <li>Create and schedule backup of database and perform a seasonly backup manouvre.</li>
+                  <li>Complex Querying in case of bank reconciliation</li>
+              </ul><br>
+
+             </ul>
+        </div>
+        
+        <div class="job">
+          <h3><b><a href="https://pedec.ir/">PEDEC </a></b><span>| Software Engineer</span></h3>
+          <p class="date">Apr 2012 – Apr 2017</p>
+          <ul>
+                      <li>Implementing Convert project to unify all excel, access, foxpro, txt, xml .. files into Oracledb</li>
+                      <li>Create PEDEC data policy to maintain all new data is generated in a usable form</li>
+                      <li>Design and Implementaion Oracledb cluster and run CDC on Golden Gate tools</li>
+                      <li>Design and Support PEDEC data ticketing webtools via java spring </li>
+                      <li>Maintain all needs of PEDEC db such as routine backup , grant administration, .. </li>
+          </ul>
+        </div>
       </section>
     </div>
 
-    <!-- RIGHT COLUMN (Now Education, Skills, Links) -->
+    <!-- RIGHT COLUMN: Skills / Education / Links -->
     <div id="mainRight">
       <section>
         <h2>Education</h2>
@@ -79,35 +146,9 @@
 
       <section>
         <h2>Skills</h2>
-
-        <h3>Big Data Engineering</h3>
-        <p>Apache Spark, Hadoop Ecosystem, Kafka, Airflow, ClickHouse, Stream</p>
-
-        <h3>Cloud</h3>
-        <p>Terraform, Kubernetes / OKD, Helm, ArgoCD, Docker, AWS</p>
-
-        <h3>Programming</h3>
-        <p>Go, Python, SQL, Bash</p>
-
-        <h3>Data Science</h3>
-        <p>RFM Modeling, KMeans Clustering, Logistic Regression, Analytical Dashboards</p>
-
-        <h3>Web & APIs</h3>
-        <p>Gin, Django, FastAPI, Spring Boot</p>
-
-        <h3>Tools</h3>
-        <p>Git, Jira, Confluence, Vault</p>
-      </section>
-
-      <section>
-        <h2>Links</h2>
-        <p>
-          Site: <a href="https://hadirahjou.ir">hadirahjou.ir</a><br />
-          Github: <a href="https://github.com/rahjooh">rahjooh</a><br />
-          LinkedIn: <a href="https://www.linkedin.com/in/hadirahjou/">hadirahjou</a>
-        </p>
-      </section>
-    </div>
-  </main>
-</body>
-</html>
+        <ul class="skills">
+          <li><strong>Big Data:</strong> Spark, Hadoop, Kafka, Airflow, ClickHouse</li>
+          <li><strong>Cloud:</strong> Terraform, Kubernetes / OKD, Helm, ArgoCD, Docker, AWS</li>
+          <li><strong>Programming:</strong> Go, Python, SQL, Bash</li>
+          <li><strong>Data Science:</strong> RFM, KMeans, Regression, Dashboards</li>
+          <li><strong>Web & APIs:</strong> Gin, Django, FastAPI, Spring Boot
